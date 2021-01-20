@@ -15,11 +15,11 @@ You might simplify the data by creating one set that holds the participant-level
 
  
 
-    Create these two datasets. How many unique individuals are there in the dataset? Create a graphic that shows the distribution of the number of observations per individual.
+   Create these two datasets. How many unique individuals are there in the dataset? Create a graphic that shows the distribution of the number of observations per individual.
 
 Hint: Use the rle function to determine the unique id numbers and the number of rows associated with each id. Then use functions like cumsum to construct the starting and ending row numbers for each individual. This will then allow you to pull off the first row for each person.
 
-    Note that the participant-level data contain 7 variables corresponding to the pain measurements on each of 7 days in the study.
+   Note that the participant-level data contain 7 variables corresponding to the pain measurements on each of 7 days in the study.
 
  a. Summarize the average pain score for each of the 7 days of the study.
 
@@ -32,13 +32,12 @@ Hint: Use the rle function to determine the unique id numbers and the number of 
  e. Are the slopes or intercepts computed in problem c related to any of the patient characteristics described in problem d?
 
  
+ Now use the weather dataset and the participant level dataset.
 
-    Now use the weather dataset and the participant level dataset.
+   a. Graph and describe the temperatures experienced by each individual over the time in which they were enrolled in the study. Do you see any patterns?
 
-    a. Graph and describe the temperatures experienced by each individual over the time in which they were enrolled in the study. Do you see any patterns?
+   b. Compute the correlation for each individual between their pain scores and the average temperature on the dates the pain scores were taken and construct a graph to display these correlations. Discuss whether pain is correlated with temperature
 
-    b. Compute the correlation for each individual between their pain scores and the average temperature on the dates the pain scores were taken and construct a graph to display these correlations. Discuss whether pain is correlated with temperature
+   c. Express these correlations as regressions and describe the slopes and intercepts for each individual as in problem 2c.
 
-    c. Express these correlations as regressions and describe the slopes and intercepts for each individual as in problem 2c.
-
-    d. What do you notice about the distributions of the correlations in 3b and the slopes in 3c?
+   d. What do you notice about the distributions of the correlations in 3b and the slopes in 3c?
